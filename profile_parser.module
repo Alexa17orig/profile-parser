@@ -14,6 +14,7 @@ define('PROFILE_PARSER_LAST_PAGE', 21);
 define('PROFILE_PAGE_TIMEOUT', 1);
 define('PROFILE_PARSER_CONTENT_TYPE', 'drupalcon_user');
 define('PROFILE_PARSER_VIEW', 'admin/profile_parser/data');
+define('PROFILE_PARSER_INPUT_FORMAT', 'profile_parser_format');
 
 /**
  * Implements hook_menu().

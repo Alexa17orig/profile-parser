@@ -31,7 +31,7 @@ function profile_parser_save_profile($profile) {
   $node->field_profile_organization[LANGUAGE_NONE][0]['value'] = $profile['organization'];
   $node->field_profile_job_title[LANGUAGE_NONE][0]['value'] = $profile['job_title'];
   $node->field_profile_about[LANGUAGE_NONE][0]['value'] = $profile['interests'];
-  $node->field_profile_about[LANGUAGE_NONE][0]['format'] = 'filtered_html';
+  $node->field_profile_about[LANGUAGE_NONE][0]['format'] = PROFILE_PARSER_INPUT_FORMAT;
 
   node_save($node);
 }
