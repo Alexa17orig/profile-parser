@@ -62,7 +62,7 @@ function profile_parser_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 7,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -182,7 +182,7 @@ function profile_parser_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 8,
       ),
       'teaser' => array(
         'label' => 'above',

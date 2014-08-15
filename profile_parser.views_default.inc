@@ -260,32 +260,6 @@ function profile_parser_views_default_views() {
   $handler->display->display_options['menu']['name'] = 'management';
   $handler->display->display_options['menu']['context'] = 0;
   $handler->display->display_options['menu']['context_only_inline'] = 0;
-  $translatables['drupalcon_users'] = array(
-    t('Master'),
-    t('Drupal User Profiles'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Items per page'),
-    t('- All -'),
-    t('Offset'),
-    t('« first'),
-    t('‹ previous'),
-    t('next ›'),
-    t('last »'),
-    t('Displaying @start - @end of @total profiles'),
-    t('Nickname'),
-    t('First Name'),
-    t('Second Name'),
-    t('Job Title'),
-    t('Organization'),
-    t('Profile URL'),
-    t('About'),
-    t('Page'),
-  );
   $export['drupalcon_users'] = $view;
 
   return $export;
